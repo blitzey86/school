@@ -1,0 +1,8 @@
+hexadecimal = "inputurvalue"
+end_length = len(hexadecimal) * 4
+
+hex_as_int = int(hexadecimal, 16)
+hex_as_binary = bin(hex_as_int)
+padded_binary = hex_as_binary[2:].zfill(end_length)
+
+print(padded_binary)
