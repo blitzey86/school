@@ -1,2 +1,3 @@
 # school
-Basic python conversions.
+Basic python programs & conversions
+
